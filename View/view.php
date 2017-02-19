@@ -9,6 +9,6 @@ class View
     }
     public function output()
     {
-        return '<h1>' . $this->model->text . '</h1>';
+        return '<a href="index.php?action=textclicked">' . $this->model->text;
     }
 }

@@ -5,8 +5,13 @@ class Controller
 {
     private $model;
 
-    function __construct(Model $model)
+    public function __construct(Model $model)
     {
-        $this->model = $model
+        $this->model = $model;
     }
+    public function textclicked()
+    {
+        $this->model->text = 'text updated';
+    }
+
 }
