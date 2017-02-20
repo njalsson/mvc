@@ -1,0 +1,13 @@
+a. Hvað er hönnunarmynstur?
+
+Hönnunarmynstur er sniðmát sem er hægt að nota mismunandi forrit í. Það er endurnothæft sem gerir það sniðugt til að koma í veg fyrir að þurfa að skrifa kóða aftur.
+b. Hvað er MVC?
+
+Það er hönnunarmynstur
+c. Útskýrðu MVC í bakendavefþróun.
+
+Það er með þrjá klasa, einn sem heldur upplýsingum, einn til að breyta upplýsingur og ein til að skrifa út, eða sýna notanda upplýsingar.
+
+d. Útskýrðu MV* í framendavefþróun (SPA og client-side MVC).
+
+SPA stendur fyrir Single Page Application. Í stað þess að skifta um index síður til að fá önnur gögn, breytir síðan sér til að innihalda efnið sem maður vill. 
