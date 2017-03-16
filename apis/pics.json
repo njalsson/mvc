@@ -1,0 +1,7 @@
+{
+    "pictures":[
+        {"name":"thinkpad", "path":"/myndir/thinkpad.jpg"},
+        {"name":"purrito",  "path":"/myndir/purrito.jpg"},
+        {"name":"sanic",    "path":"/myndir/sanic.jpg"}
+    ]
+}

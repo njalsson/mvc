@@ -1,0 +1,48 @@
+nota ekki isl layout, heldur dvorak, mun ekki nota isl stafi.
+1. a:
+   post er http fall sem ad leyfir ther ad senda gogn yfir form a adrar sidur, en hefur thau ekki i url.
+   b:
+   get er http fall sem er mjog likt post, en ekki eins oruggt, thvi thad sendir oll gognin i gegnum url, haegt er ad na i gognim med "$_GET['thing']
+   ef 'thing' er i url, mun thad skila thvi sem ad thing skilar.
+   c:
+   put er http fall sem breytir gognum a akvednum stad
+   d:
+   delete er eins og allt hitt, er http fall, sem ad eydir skjali
+
+   daemi um follin
+   if(isset($_POST['hlutur']) $hlutur = $_POST['hlutur']
+   setur post skipun i data typu
+   
+   td. url er
+   njalsson.is/?key="value"
+   $_GET['key'] // skilar value
+
+   daemi um put:
+   PUT https://njalsson.is/sida
+   //breytir gognum
+
+   daemi um delete:
+   DELETE https://njalsson.is/sida/1
+   //mun eyda sidu
+
+2.
+
+  thetta eru https error kodar,
+
+  a. 200 OK
+         tenging virkar
+  b. 301 PERMANENTLY MOVED
+         buid ad faera sidu
+  c. 400 BAD REQUEST
+         tenging nadist ekki
+  d. 404 NOT FOUND
+         fann ekki index
+  e. 500 INTERNAL ERROR
+         eitthver galli en apache veit ekki hver, skilar 500
+
+
+3.
+  nyungir i https 2.0 eru t.d. header compression, forgangsrodun, leyfir ther ad brjota server responsum i bita til ad spara net.
+  er med multiplexing. sem leyfir honum ad senda morg request, en https 1.1 an pipelining, thurfti ad bida eftir svari til ad senda annad request.
+  2.0 er allment fljotari.
+
