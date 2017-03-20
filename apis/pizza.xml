@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzaorder>
+	<name>king</name>
+	<address>church</address>
+	<phone>5812345</phone>
+	<isvip>false</isvip>
+	<crust>normal</crust>
+	<status>cooking</status>
+	<toppings>
+		<topping>pepperoni</topping>
+		<topping>ham</topping>
+		<topping>pineapple</topping>
+	</topping>
+</pizzaorder>
